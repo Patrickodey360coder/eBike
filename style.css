@@ -179,8 +179,36 @@ form .button {
 }
 
 .box {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 16px;
+  color: #233348;
+}
+
+.active-box {
+  border: 2px solid #FCB72B;
+  border-radius: 10px;
+}
+
+.active-text {
+  color: #FCB72B!important;
+  line-height: 20px!important;
+}
+
+.img-box {
   padding: 15px 20px;
   background: #fff;
   box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.06);
-  border-radius: 20px;
+  border-radius: 10px;
+}
+
+.bike-names {
+  margin: 7px 0;
+}
+
+.other-bikes-header {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 56px;
 }
