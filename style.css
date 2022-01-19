@@ -341,12 +341,20 @@ footer {
   background: #FCB72B;
   color: #fff;
   padding-top: 2em;
-  margin-top: 15em;
 }
 
-.footer {
+#bottom_img {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
   margin-top: 30px;
 }
+
+.bottom_image {
+  margin-bottom: -50px;
+  z-index: -1;
+}
+
 
 span {
   display: inline-block;
@@ -370,6 +378,11 @@ span {
   font-weight: 700;
   font-size: 24px;
   line-height: 30px;
+}
+
+footer {
+  position: relative;
+  z-index: 33;
 }
 
 .footer-address {
