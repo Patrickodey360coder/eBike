@@ -263,3 +263,72 @@ form .button {
   padding: 0px 25px;
   margin: 15px 0;
 }
+
+.customers {
+  position: relative;
+  border-radius: 10px;
+  background: #FCB72B;
+  margin: 20px 0px;
+}
+
+.top-design {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.top-design img {
+  margin-top: -70px;
+  margin-right: -25px;
+}
+
+.reviews {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #fff;
+  text-align: center;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin: 20px auto;
+  color: #fff;
+}
+
+.profile-info {
+  flex: 20%;
+  text-align: center
+}
+
+.profile-img img{
+  border: 5px solid #fff;
+  border-radius: 100px;
+}
+
+.profile-text {
+  flex: 50%;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  padding-top: 30px;
+}
+
+.profile-name {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.profile-title {
+  font-size: 18px;
+  line-height: 48px;
+  font-weight: 400;
+}
+
+.slider-button {
+  border: none;
+  outline: none;
+  background: #fff;
+}
