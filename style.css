@@ -220,6 +220,9 @@ form .button {
 
 .hybrid-bike {
   margin: 150px 0;
+  background-image: url('./images/bg2.png');
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .rider-box {
