@@ -20,3 +20,167 @@ body {
   font-weight: bold;
 }
 
+.intro-heading {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 56px;
+  color: #233348!important;
+}
+
+.intro-text {
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 32px;
+  color: #7D7987;
+}
+
+.form {
+  width: 70% ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #C2CFE0;
+  border-radius: 100px;
+  padding: 10px 5px;
+}
+
+form > i {
+  width: 10%;
+  color: #C2CFE0;
+}
+
+form .search {
+  width: 60%;
+  /* border: 1px solid #C2CFE0; */
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  color: #C2CFE0;
+  outline: none;
+  padding: 10px 0px;
+}
+
+form .button {
+  width: 20%;
+  background: linear-gradient(180deg, rgba(255, 189, 55, 0.58) 0%, #FFBD37 100%);
+  border-radius: 100px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 10px 0px;
+}
+
+
+.bikes {
+  /* background: red; */
+}
+
+.bike-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bike-box {
+  padding: 15px 20px;
+  background: #fff;
+  box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.06);
+  border-radius: 20px;
+}
+
+.bike-name {
+  color: #233348;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.bike-img {
+  display: grid;
+  place-items: center;
+  border-bottom: 1px solid #C2CFE0;
+  transform: matrix(1, 0, 0, 1, 0, 0)
+}
+
+.bike-img img{
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.bike-sale {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bike-sale .button {
+  background: linear-gradient(180deg, rgba(255, 189, 55, 0.58) 0%, #FFBD37 100%);
+  border-radius: 100px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 10px 15px;
+  outline: none;
+  border: none;
+}
+
+.price  p {
+  color: #7D7987;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.dollars {
+ color: #233348!important;
+ size: 20px!important;
+ line-height: 25px!important;
+ font-weight: bold!important; 
+}
+
+
+.faded {
+  position: relative;
+  display: inline-block;
+}
+.faded::after {
+  position: absolute;
+  content: '';
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255,255,255,.7);
+}
+
+
+.arrows {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.left-arrow {
+  display: grid;
+  place-items: center;
+  height: 48px;
+  width: 48px;
+  background: #FFE8B9;
+  border-radius: 100px;
+  border: none;
+}
+.right-arrow {
+  display: grid;
+  place-items: center;
+  height: 48px;
+  width: 48px;
+  background: linear-gradient(180deg, rgba(255, 189, 55, 0.58) 0%, #FFBD37 100%);
+  border-radius: 100px;
+  border: none;
+}
+
+.box {
+  padding: 15px 20px;
+  background: #fff;
+  box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.06);
+  border-radius: 20px;
+}
