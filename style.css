@@ -212,3 +212,54 @@ form .button {
   font-weight: 600;
   line-height: 56px;
 }
+.hybrid-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.hybrid-bike {
+  margin: 150px 0;
+}
+
+.rider-box {
+  padding: 15px 20px;
+  background: #fff;
+  box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.06);
+  border-radius: 20px;
+}
+
+
+.rider-box img {
+ height: 200px;
+ width: 200px;
+ margin: 10px 0;
+}
+
+.hybrid-bike-header {
+  color: #233348;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 56px;
+  margin: 15px 0;
+}
+
+.hybrid-bike-text {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+  color: #7D7987;
+  margin: 15px 0;
+}
+
+.hybrid-bike-button {
+  border: 1.4px solid #FCB72B;
+  box-sizing: border-box;
+  border-radius: 55px;
+  color: #FCB72B;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 60px;
+  background: #fff;
+  padding: 0px 25px;
+  margin: 15px 0;
+}
