@@ -73,7 +73,8 @@ form .button {
 
 
 .bikes {
-  /* background: red; */
+  background-image: url('/images/bg.png');
+  background-repeat: no-repeat;
 }
 
 .bike-section {
@@ -331,4 +332,79 @@ form .button {
   border: none;
   outline: none;
   background: #fff;
+}
+
+footer {
+  background: #FCB72B;
+  color: #fff;
+  padding-top: 2em;
+  margin-top: 15em;
+}
+
+.footer {
+  margin-top: 30px;
+}
+
+span {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.me {
+  width: 41px;
+  height: 41px;
+  line-height: 41px;
+  border-radius: 50%;
+  font-size: 26px;
+  font-weight: 700;
+  color: #FFC44B!important;
+  text-align: center;
+  background: #fff;
+  margin-right: 10px;
+}
+
+.ebike {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.footer-address {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 10px 0;
+}
+
+
+.footer-image {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  margin: 10px 0;
+}
+
+.lead-text {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 60px;
+  margin-top: 15px;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 38px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: black;
 }
